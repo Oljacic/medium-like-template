@@ -279,9 +279,10 @@ article blockquote {
     font-style: italic;
 }
 
-/*-------------------------header media query-------------------------*/
+/*-------------------------media query-------------------------*/
 
 @media only screen and (max-width: 600px) {
+	
     .hgroup {
         font-size: 42px;
     }
@@ -298,11 +299,7 @@ article blockquote {
     header {
         min-height: 400px;
     }
-}
 
-/*--------------------------content media query---------------------------*/
-
-@media only screen and (max-width: 600px) {
     article p {
         font-size: 18px;
     }
@@ -314,11 +311,7 @@ article blockquote {
     article blockquote {
         font-size: 22px;
     }
-}
 
-/*--------------------------footer media query--------------------------------*/
-
-@media only screen and (max-width: 600px) {
     .footer {
         float: left;
     }
